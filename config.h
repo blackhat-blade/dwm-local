@@ -56,8 +56,8 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = {"$HOME/bin/exec/menu", NULL };
-static const char *lockcmd[]  = {"$HOME/bin/exec/lock", NULL };
+static const char *dmenucmd[] = {"/home/blade/bin/exec/menu", NULL };
+static const char *lockcmd[]  = {"/home/blade/bin/exec/lock", NULL };
 static const char *termcmd[]  = { "st", NULL };
 
 static Key keys[] = {
