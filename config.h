@@ -10,9 +10,9 @@ static const char *fonts[] = {
 static const char dmenufont[]       = "monospace:size=10";
 static const char normbordercolor[] = COLOR_STAT_NORMAL;
 static const char normbgcolor[]     = COLOR_STAT_INACTIVE;
-static const char normfgcolor[]     = COLOR_STAT_NOTICE;
+static const char normfgcolor[]     = "#ff00ff";
 static const char selbordercolor[]  = COLOR_STAT_WARNING;
-static const char selbgcolor[]      = "#005577";
+static const char selbgcolor[]      = COLOR_STAT_NOTICE;
 static const char selfgcolor[]      = "#eeeeee";
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
