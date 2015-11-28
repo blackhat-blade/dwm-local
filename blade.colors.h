@@ -1,0 +1,5 @@
+#define COLOR_STAT_INACTIVE "#0a0a0a"
+#define COLOR_STAT_NORMAL   "#2f2f2f"
+#define COLOR_STAT_NOTICE   "#4f4f4f"
+#define COLOR_STAT_WARNING  "#ffaa10"
+#define COLOR_STAT_ALERT    "#ff1010"

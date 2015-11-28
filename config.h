@@ -1,14 +1,17 @@
 /* See LICENSE file for copyright and license details. */
 
+include "blade.colors.h"
+
 /* appearance */
 static const char *fonts[] = {
+	"Source Sans Pro:pixelsize=14:antialias=true"
 	"monospace:size=10"
 };
 static const char dmenufont[]       = "monospace:size=10";
-static const char normbordercolor[] = "#444444";
-static const char normbgcolor[]     = "#222222";
-static const char normfgcolor[]     = "#bbbbbb";
-static const char selbordercolor[]  = "#005577";
+static const char normbordercolor[] = COLOR_STAT_NORMAL;
+static const char normbgcolor[]     = COLOR_STAT_INCACTIVE;
+static const char normfgcolor[]     = COLOR_STAT_NOTICE;
+static const char selbordercolor[]  = COLOR_STAT_WARNING;
 static const char selbgcolor[]      = "#005577";
 static const char selfgcolor[]      = "#eeeeee";
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
