@@ -1,10 +1,10 @@
 /* See LICENSE file for copyright and license details. */
 
-include "blade.colors.h"
+#include "blade.colors.h"
 
 /* appearance */
 static const char *fonts[] = {
-	"Source Sans Pro:pixelsize=14:antialias=true"
+	"Source Sans Pro:pixelsize=14:antialias=true",
 	"monospace:size=10"
 };
 static const char dmenufont[]       = "monospace:size=10";
