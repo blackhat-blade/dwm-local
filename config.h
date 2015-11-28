@@ -9,7 +9,7 @@ static const char *fonts[] = {
 };
 static const char dmenufont[]       = "monospace:size=10";
 static const char normbordercolor[] = COLOR_STAT_NORMAL;
-static const char normbgcolor[]     = COLOR_STAT_INCACTIVE;
+static const char normbgcolor[]     = COLOR_STAT_INACTIVE;
 static const char normfgcolor[]     = COLOR_STAT_NOTICE;
 static const char selbordercolor[]  = COLOR_STAT_WARNING;
 static const char selbgcolor[]      = "#005577";
